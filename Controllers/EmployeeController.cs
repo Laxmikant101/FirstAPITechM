@@ -24,7 +24,7 @@ namespace FirstAPI.Controllers
         }
        
        [HttpGet]
-        public ActionResult<string> GetLA()
+        public ActionResult<string> GetData()
         {
             return "LA";
         }
